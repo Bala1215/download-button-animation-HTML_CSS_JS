@@ -4,3 +4,36 @@
   box-sizing:border-box;
   overflow:hidden;
 }
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button{
+  border:none;
+  border-radius: 40px;
+  outline:none;
+  background-color: aquamarine;
+ 
+  height:100px;
+  width:160px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+button > i{
+  margin-right: 10px;
+}
+
+button:active{
+  background-color: #fff;
+  /* border-radius: 50%; */
+  
+  width:80px;
+  font-size: 0;
+
+}
