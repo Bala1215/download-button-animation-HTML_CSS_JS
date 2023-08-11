@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Download Button</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <button>
-        <i class="fa-solid fa-download"></i>
-        Download
+      <i class="fa-solid fa-download"></i>
+      Download
+      <div class="progress-wrapper">
+        <div class="inner"></div>
+        <div class="checkmark">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="circle">
+          <div class="bar left">
+            <div class="progress"></div>
+          </div>
+          <div class="bar right">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
     </button>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

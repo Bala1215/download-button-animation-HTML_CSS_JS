@@ -1,5 +1,5 @@
-const btn = document.querySelector('.download-btn');
+const button = document.querySelector('button');
 
-btn.addEventListener('click',()=>{
-    btn.classList.add('active');
-})
+button.addEventListener('click',()=>{
+    button.classList.add('active');
+});
